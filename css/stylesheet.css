@@ -8,6 +8,54 @@ body {
 .step4,
 .step5,
 .step6,
-.step7 {
+.step7,
+.step8 {
   display: none;
+}
+
+@media screen and (min-width:1464px){
+  .step1 {
+    display: block;
+  }
+}
+@media screen and (max-width:1463px)
+              and (min-width:1264px){
+  .step2 {
+    display: block;
+  }
+}
+@media screen and (max-width:1263px)
+              and (min-width:1064px){
+  .step3 {
+    display: block;
+  }
+}
+@media screen and (max-width:1063px)
+              and (min-width:864px){
+  .step4 {
+    display: block;
+  }
+}
+@media screen and (max-width:863px)
+              and (min-width:664px){
+  .step5 {
+    display: block;
+  }
+}
+@media screen and (max-width:663px)
+              and (min-width:464px){
+  .step6 {
+    display: block;
+  }
+}
+@media screen and (max-width:463px)
+              and (min-width:401px){
+  .step7 {
+    display: block;
+  }
+}
+@media screen and (max-width:400px){
+  .step8 {
+    display: block;
+  }
 }
